@@ -1,0 +1,213 @@
+.section__banner .banner__estimate {
+  height: 100%;
+}
+
+.section__banner .banner__estimate__image {
+  width: 100%;
+}
+
+.section__banner .banner__estimate__info {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .section__banner .banner__estimate__info {
+    top: 44px;
+  }
+}
+
+@media (max-width: 900px) {
+  .section__banner .banner__estimate__info {
+    top: 44px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section__banner .banner__estimate__info {
+    top: 5%;
+  }
+}
+
+.section__banner .banner__estimate__info h4,
+.section__banner .banner__estimate__info h3,
+.section__banner .banner__estimate__info h2 {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.section__banner .banner__estimate__info h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (max-width: 900px) {
+  .section__banner .banner__estimate__info h4 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section__banner .banner__estimate__info h4 {
+    display: none;
+  }
+}
+
+.section__banner .banner__estimate__info h3 {
+  margin-top: 44px;
+  font-size: 52px;
+  font-weight: 400;
+}
+
+@media (max-width: 900px) {
+  .section__banner .banner__estimate__info h3 {
+    margin-top: 15px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section__banner .banner__estimate__info h3 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+}
+
+.section__banner .banner__estimate__info h2 {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .section__banner .banner__estimate__info h2 {
+    margin-top: 15px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section__banner .banner__estimate__info h2 {
+    font-size: 20px;
+  }
+}
+
+.section__banner .banner__estimate__info .btn {
+  font-size: 17px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 15px 41px;
+  color: white;
+  font-weight: 700;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.section__banner .banner__estimate__info .btn:hover {
+  background-color: #fff;
+  color: #4ba0e8;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .section__banner .banner__estimate__info .btn {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .section__banner .banner__estimate__info .btn {
+    margin-top: 15px;
+    font-size: 16px;
+  }
+}
+
+.section__estimate {
+  margin: 30px 0;
+}
+
+.section__estimate .icon {
+  width: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.section__estimate .content__estimate {
+  background-color: #f3f3f3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 26px 30px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.section__estimate .content__estimate__phone .icon {
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+}
+
+.section__estimate .content__estimate .contact-info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.section__estimate .content__estimate .contact-info .icon {
+  color: #4ba0e8;
+}
+
+.section__estimate .content__estimate__btn {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__estimate .content__estimate__btn #btn_get_notify {
+  background-color: #0edd91;
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.section__estimate .content__estimate__btn #btn_get_notify span {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.section__estimate .content__estimate__btn #btn_get_notify:hover {
+  background-color: #4ba0e8;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .section__estimate .content__estimate {
+    padding: 25px 10px;
+  }
+  .section__estimate .content__estimate .content__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .section__estimate .content__estimate .contact-info {
+    font-size: 15px;
+  }
+  .section__estimate .content__estimate .contact-info .icon {
+    width: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
